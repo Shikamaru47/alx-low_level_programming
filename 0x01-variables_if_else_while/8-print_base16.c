@@ -22,7 +22,7 @@ int main(void)
 			b++;
 		}
 	while
-		(a <= 'f') {
+		(a <= '0') {
 			putchar(a);
 			a++;
 		}
