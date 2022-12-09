@@ -12,22 +12,20 @@
 
 int main(void)
 {
-        char n;
+	char n;
 	char m;
-
-        n = 'a';
+	n = 'a';
 	m = 'A';
-        while
-                (n <= 'z') {
-                        putchar(n);
-              		n++;
+	while
+		(n <= 'z') {
+			putchar(n);
+			n++;
 		}
 	while
-                (m <= 'Z') {
-                        putchar(m);
-                        m++;
-
-                }
-putchar('\n');
-return (0);
+		(m <= 'Z') {
+			putchar(m);
+			m++;
+		}
+	putchar('\n');
+	return (0);
 }
