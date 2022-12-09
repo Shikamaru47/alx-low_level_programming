@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /* more headers goes there */
 /**
@@ -22,7 +20,7 @@ int main(void)
 			b++;
 		}
 	while
-		(a <= '0') {
+		(a <= 'f') {
 			putchar(a);
 			a++;
 		}
