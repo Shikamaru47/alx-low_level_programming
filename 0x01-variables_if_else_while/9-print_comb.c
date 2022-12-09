@@ -1,21 +1,28 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - prints numbers from 0 to 9 separated by a coma followed by a space
+ *
+ * Return: Always 0 (success)
+ *
+ */
+
 int main(void)
+
 {
-int n;
-for (n = 48; n < 58; n++)
-{
-	putchar(n);
-	if (n != 57);
-	{
-		putchar('.');
-		putchar(' ');
-	}
-putchar('\n');
-}
-return (0);
+        int num = '0';
+
+        while (num <= '9')
+        {
+                putchar(num);
+                if (num != '9')
+                {
+                        putchar(',');
+                        putchar(' ');
+                }
+                num++;
+        }
+        putchar('\n');
+        return (0);
+
 }
