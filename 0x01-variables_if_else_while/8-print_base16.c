@@ -9,20 +9,21 @@
 
 int main(void)
 {
-	char a;
-	int b;
+	char c;
+	
+	int d;
 
-	a = 'a';
-	b = 0;
+	c = 'a';
+	d = 0;
 	while
-		(b < 10) {
-			putchar(b = '0');
-			b++;
+		(d < 10) {
+			putchar(d = '0');
+			d++;
 		}
 	while
-		(a <= 'f') {
-			putchar(a);
-			a++;
+		(c <= 'f') {
+			putchar(c);
+			c++;
 		}
 	putchar('\n');
 	return (0);
