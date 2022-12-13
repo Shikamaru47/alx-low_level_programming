@@ -1,5 +1,4 @@
 #include "main.h"
-#include <unistd>
 
 /**
  * print_alphabet - entry point
@@ -7,7 +6,7 @@
  * Return: Always 0.
  */
 
-void print_alphabet_x10(void)i
+void print_alphabet_x10(void)
 {
 char c = 'a';
 int d;
