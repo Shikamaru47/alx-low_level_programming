@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd>
 
 /**
  * print_alphabet - entry point
