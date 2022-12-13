@@ -10,11 +10,14 @@ void print_alphabet_x10(void)
 {
 char c = 'a';
 int d;
-while (c <= 'z'; d <= 10)
+d = 0;
+do (c <= 'z')
 {
-
 _putchar(c);
 c++;
 }
+while (d <= 10)
+{
 _putchar('\n');
+}
 }
