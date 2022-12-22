@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
  * _strncat - Function that concatenates two strings.
  * @dest: first string
@@ -11,8 +10,7 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int length;
-	int j;
+	int length, j;
 
 	length = 0;
 
