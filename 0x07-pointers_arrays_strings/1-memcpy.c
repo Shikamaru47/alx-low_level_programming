@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy - fills memory with a constant byte
+ * _memcpy - fills memory with another buffer.
  * @dest: source string
  * @src: strings for filling
  * @n: length of buffer
